@@ -4,7 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup",
+    "test": "vitest run",
+    "dev": "tsup --watch"
+  },
+  "vitest": {
+    "include": [
+      "src/**/*.test.ts"
+    ]
   },
   "repository": {
     "type": "git",
@@ -23,6 +30,6 @@
     "axios": "^1.17.0",
     "tsup": "^8.5.1",
     "typescript": "^6.0.3",
-    "vitest": "^4.1.8"
+    "vitest": "^1.6.1"
   }
 }
