@@ -1,3 +1,6 @@
+export { guardedFetch } from "./adapters/fetch";
+export type { FetchGuardianOptions } from "./adapters/fetch";
+
 
 export { guardedAxios } from "./adapters/axios";
 export type { AxiosGuardianOptions } from "./adapters/axios";
