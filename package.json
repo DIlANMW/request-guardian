@@ -15,16 +15,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DIlANMW/fetch-shield.git"
+    "url": "git+https://github.com/DIlANMW/fetch-shield-pkg.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/DIlANMW/fetch-shield/issues"
+    "url": "https://github.com/DIlANMW/fetch-shield-pkg/issues"
   },
-  "homepage": "https://github.com/DIlANMW/fetch-shield#readme",
+  "homepage": "https://github.com/DIlANMW/fetch-shield-pkg#readme",
   "devDependencies": {
     "@types/node": "^25.9.3",
     "axios": "^1.17.0",
